@@ -5,4 +5,3 @@ def generate_report(passed, failed):
     print(f"\n{round(percentage_passed, 1)}% of files passed ({passed}/{(passed+failed)})\n{failed} file(s) failed the anonymisation check")
     print("_"*40)
 
-generate_report(70, 20)

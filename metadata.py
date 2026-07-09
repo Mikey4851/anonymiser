@@ -1,8 +1,6 @@
 
 from pydicom import dcmread
 
-ds = dcmread("dicom_files/sample_dicom.dcm")
-
 """
 1. Loop through metadata
 2. Check if it exists
@@ -29,5 +27,3 @@ def check_if_anonymised(ds):
     else:
         print("File failed")
         return False
-    
-check_if_anonymised(ds)
